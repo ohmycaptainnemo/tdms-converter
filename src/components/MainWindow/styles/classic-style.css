@@ -1,0 +1,28 @@
+QWidget {
+    background-color: none;
+}
+
+
+QFileDialog {
+    background-color: none;
+    border: none;
+}
+
+QPushButton {
+    background-color: none;
+}
+
+QLineEdit {
+    background-color: none;
+}
+
+QProgressBar {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+
+QStatusBar {
+    background-color: none;
+}

@@ -1,0 +1,10 @@
+QLabel {
+    background-color: #1e1e1e;
+    selection-background-color: rgb(192, 128, 128);
+    selection-color: black;
+    padding: 5px;
+    border-style: solid;
+    border: 1px solid #76797C;
+    border-radius: 2px;
+    color: #eff0f1;
+}

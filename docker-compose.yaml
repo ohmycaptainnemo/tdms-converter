@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  pyqt5:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nima/pyqt5
+    container_name: pyqt5
+
+    working_dir: /opt/working
+    user: qtuser
+    environment:
+      - DISPLAY=$DISPLAY
+      - PYTHONDONTWRITEBYTECODE=1
+    volumes:
+      - .:/opt/working
+      - /tmp/.X11-unix:/tmp/.X11-unix 
+    restart: always
+    entrypoint: python3 ./main.py
