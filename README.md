@@ -2,6 +2,18 @@
 <img src="images/tdms-logo.svg" width="300" style="padding-bottom:10px"><br><strong>TDMS Converter</strong>
 </h1>
 
+<p align="center">
+    <a href="https://github.com/nimanamjouyan/tdms-converter/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/nimanamjouyan/tdms-converter"></a>
+    <a href="https://github.com/nimanamjouyan/tdms-converter/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/nimanamjouyan/tdms-converter"></a>
+    <a href="https://github.com/nimanamjouyan/tdms-converter/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/nimanamjouyan/tdms-converter"></a>
+    <br />
+    <a href="https://github.com/nimanamjouyan/tdms-converter/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/nimanamjouyan/tdms-converter">
+    </a>
+    <a href="https://github.com/psf/black" target="_blank">
+        <img src="https://img.shields.io/badge/code%20style-black-000000" alt="Code style: black">
+    </a>
+</p>
+
 A GUI that converts LabVIEW tdms files to other formats (currently only csv). The converter produces a csv file per each group inside the tdms file.
 
 The GUI was written and converted to an exe file as it was required to easily run on a Windows operating system locally. However, one can run it using docker or a Python Virtual Environment.
